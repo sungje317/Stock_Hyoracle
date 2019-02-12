@@ -7,9 +7,9 @@
         android:icon="@drawable/baseline_home_black_24dp"
         android:title="@string/nav_home" />
     <item
-        android:id="@+id/nav_notification"
+        android:id="@+id/nav_card"
         android:icon="@drawable/baseline_notification_important_black_24dp"
-        android:title="@string/nav_notification" />
+        android:title="@string/nav_card" />
     <item
         android:id="@+id/nav_account"
         android:icon="@drawable/baseline_person_black_24dp"

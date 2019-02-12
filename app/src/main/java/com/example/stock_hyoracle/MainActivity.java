@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.Window;
 import android.widget.FrameLayout;
 
 import com.example.stock_hyoracle.R;
@@ -40,17 +41,17 @@ public class MainActivity extends AppCompatActivity {
                 switch (menuItem.getItemId()) {
 
                     case R.id.nav_home:
-                        mMainNav.setItemBackgroundResource(R.color.colorPrimary);
+                        mMainNav.setItemBackgroundResource(R.color.colorAccent);
                         setFragment(homeFragment);
                         return true;
 
-                    case R.id.nav_notification:
+                    case R.id.nav_card:
                         mMainNav.setItemBackgroundResource(R.color.colorAccent);
                         setFragment(notificationFragment);
                         return true;
 
                     case R.id.nav_account:
-                        mMainNav.setItemBackgroundResource(R.color.colorPrimaryDark);
+                        mMainNav.setItemBackgroundResource(R.color.colorAccent);
                         setFragment(accountFragment);
                         return true;
 
